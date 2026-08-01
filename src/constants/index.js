@@ -21,48 +21,84 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
+export const achievements = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+    title: 'Amazon ML Summer School 2026',
+    award: 'Selected Participant',
+    badge: 'National Selection',
+    date: 'July 2026',
+    organization: 'Amazon India',
+    description:
+      'Selected among top engineering students across India for Amazon ML Summer School 2026, gaining hands-on knowledge in Deep Learning, LLMs, and Scalable AI Systems.',
+    type: 'gold',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+    title: 'Hack36 Flagship Hackathon',
+    award: 'Second Runner-Up (3rd Rank)',
+    badge: 'Podium Finish',
+    date: 'Nov 2025',
+    organization: 'CC Club | MNNIT Allahabad',
+    description:
+      'Secured 2nd Runner-Up at Hack36, MNNIT Allahabad’s annual flagship hackathon, building high-impact real-time security and systems solutions under tight 36-hour constraints.',
+    type: 'amber',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+    title: 'Logical Rhythm AI/ML Hackathon',
+    award: 'Winner (1st Place)',
+    badge: 'Champion',
+    date: 'Oct 2025',
+    organization: 'CC Club | MNNIT Allahabad',
+    description:
+      'Awarded 1st place in the flagship AI/ML Hackathon organized by Computer Coding Club MNNIT for engineering automated LLM & vision workflows.',
+    type: 'emerald',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+    title: 'Hacktivate AI/ML Hackathon',
+    award: 'Winner (1st Place)',
+    badge: 'Champion',
+    date: 'April 2025',
+    organization: 'Robotics Club | MNNIT Allahabad',
+    description:
+      'Won 1st place in Hacktivate AI/ML Hackathon at Botrush 3.0, organized by Robotics Club MNNIT Allahabad.',
+    type: 'emerald',
+  },
+  {
+    id: 5,
+    title: 'LeetCode Competitive Programming',
+    award: 'Knight Badge (Rating: 1870)',
+    badge: 'Top Performer',
+    date: 'Continuous',
+    organization: 'LeetCode',
+    description:
+      'Earned Knight Badge on LeetCode with max contest rating of 1870 (handle: code_Abhishek_pandey_), solving complex DSA & algorithmic challenges.',
+    type: 'purple',
+  },
+  {
+    id: 6,
+    title: 'Network Security Bootcamp (ISEA-III)',
+    award: 'Certified Participant',
+    badge: 'Certification',
+    date: 'Nov 2025',
+    organization: 'ISEA-III',
+    description:
+      'Certified participant in Network Security: Practices and Applications Bootcamp under ISEA Phase-III, covering advanced Linux networking and application security.',
+    type: 'cyan',
   },
 ];
 
+export const clientReviews = achievements;
+
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'AgentForge — AI Agent Orchestration Platform',
+    desc: 'Multi-Tenant SaaS for LLM Agent Fleets allowing users to spin up AI agents and dynamically switch between 5 LLMs on the fly based on cost, speed, or reasoning depth.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Integrates Model Context Protocol (MCP) to provide isolated tool servers (Gmail, GitHub, Google Calendar) backed by a credential vault with instant key revocation. Built with LangGraph, PostgreSQL, and MCP.',
+    href: 'https://github.com/AbhishekPandey91/Agent-tool-saas',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -74,32 +110,32 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
+        name: 'LangGraph',
         path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'PostgreSQL',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'MCP',
         path: '/assets/typescript.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
+        name: 'Node.js',
         path: '/assets/framer.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Meddit — Healthcare Community Platform',
+    desc: 'AI-moderated platform connecting doctors and patients. Features AI + keyword-based content filtering that auto-blocks irrelevant posts, and a Gemini Vision moderation layer for medical image verification.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Includes a global doctor discovery system with direct patient-doctor messaging for noise-free medical discussions. Built with Node.js, Groq API (Llama 3.3), and Google Gemini Vision API.',
+    href: 'https://meddit-two.vercel.app',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -111,32 +147,32 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
+        name: 'Node.js',
         path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Groq (Llama 3.3)',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'Gemini Vision',
         path: '/assets/typescript.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
+        name: 'React.js',
         path: '/assets/framer.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'eBPF Network Micro-Segmentation',
+    desc: 'Real-time eBPF-based application-layer network security platform providing process-level visibility (PID, executable path) and application-aware access control on Linux.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Engineered kernel-level tracing hooks and network packet inspection probes paired with an interactive real-time Streamlit dashboard. Built with eBPF, Linux Kernel, C, and Linux Networking.',
+    href: 'https://github.com/MNNITAK/hack-insightx/tree/ebpf-microseg',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -150,96 +186,22 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
+        name: 'eBPF',
         path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Linux Kernel',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'C',
         path: '/assets/typescript.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
+        name: 'Streamlit',
         path: '/assets/framer.png',
       },
     ],
@@ -260,28 +222,28 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    name: 'Computer Coding Club (CC Club)',
+    pos: 'CC Executive — MNNIT Allahabad',
+    duration: 'Present',
+    title: "Executive member at MNNIT's premier coding club. Organize college-wide hackathons (Hack36, Logical Rhythm) and conduct workshops on Data Structures, Algorithms, and Systems programming.",
     icon: '/assets/framer.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+    name: 'Student Mentorship Program (SMP)',
+    pos: 'SMP Mentor — MNNIT Allahabad',
+    duration: 'Present',
+    title: "Official Student Mentor at MNNIT Allahabad, guiding junior undergraduates in computer science fundamentals, DSA problem solving, competitive programming, and engineering career roadmaps.",
     icon: '/assets/figma.svg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+    name: 'Amazon ML Summer School 2026',
+    pos: 'Selected Participant',
+    duration: 'July 2026',
+    title: "Selected by Amazon Scientists to undergo rigorous training in Machine Learning algorithms, Deep Learning models, Large Language Models (LLMs), and high-throughput AI infrastructure.",
     icon: '/assets/notion.svg',
     animation: 'salute',
   },
