@@ -1,4 +1,4 @@
-# ⚡ Abhishek Pandey | 3D Interactive Portfolio
+# ⚡ Abhishek Pandey | Portfolio
 
 <div align="center">
   <h3>Building at the intersection of Linux kernel security, LLM agentic systems, and backend engineering.</h3>
@@ -6,15 +6,15 @@
   <p>
     <a href="https://github.com/AbhishekPandey91"><strong>GitHub</strong></a> •
     <a href="https://www.linkedin.com/in/pandeyabhishek25/"><strong>LinkedIn</strong></a> •
-    <a href="https://leetcode.com/u/code_Abhishek_pandey_/"><strong>LeetCode (Knight 1870)</strong></a> •
+    <a href="https://leetcode.com/u/code_Abhishek_pandey_/"><strong>LeetCode</strong></a> •
     <a href="mailto:pandeyabhishek8685@gmail.com"><strong>Email</strong></a>
   </p>
 
   <div>
-    <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
-    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <!-- <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" /> -->
+    <!-- <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /> -->
+    <!-- <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /> -->
+    <!-- <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" /> -->
     <img src="https://img.shields.io/badge/eBPF_&_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux eBPF" />
     <img src="https://img.shields.io/badge/LLM_Agents-FF6F61?style=for-the-badge&logo=openai&logoColor=white" alt="LLM Agents" />
   </div>
@@ -61,38 +61,6 @@ I am an **Electrical Engineering student at MNNIT Allahabad (CPI: 9.21)** buildi
 - **Hacktivate AI/ML Hackathon**: Winner / 1st Place (April 2025)
 - **LeetCode**: Knight Badge (Rating: 1870)
 - **ISEA-III Network Security Bootcamp**: Certified Participant (Nov 2025)
-
----
-
-## 💻 Local Setup & Development
-
-Clone the repository and install dependencies to run the 3D portfolio locally:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/AbhishekPandey91/myPortfolio.git
-
-# 2. Navigate to project directory
-cd myPortfolio
-
-# 3. Install dependencies
-npm install
-
-# 4. Start local development server
-npm run dev
-```
-
-The application will launch on `http://localhost:5173`.
-
-### Production Build
-
-```bash
-# Build production bundle
-npm run build
-
-# Preview build locally
-npm run preview
-```
 
 ---
 
